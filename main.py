@@ -39,9 +39,7 @@ class Spellblade(Warrior, MagicalStance):
 
 class VolcanoZone:
     def activate_buff(self, character):
-        character.strength += 20
-        print("Sức mạnh +20")
-        print("Sức mạnh hiện tại:", character.strength)
+        print("Đã buff sức mạnh")
 
 
 def apply_battleground_effect(environment, character):
